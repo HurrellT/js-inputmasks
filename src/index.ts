@@ -1,1 +1,1 @@
-export {sayHello, sayGoodbye} from './helloworld'
+import InputMasks from "./InputMasks";
