@@ -1,0 +1,35 @@
+{
+  "name": "js-inputmasks",
+  "version": "0.0.1",
+  "description": "Simple full javascript input masks library",
+  "author": "Tomas Hurrell <hurrelltomas@gmail.com> (https://hurrellt.vercel.app/)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "publish-lib": "npm run build && npm publish",
+    "publish-beta": "npm run build && npm publish --tag beta",
+    "publish-dryrun": "npm run build && npm publish --dry-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HurrellT/js-inputmasks.git"
+  },
+  "keywords": [
+    "inputmask",
+    "typescript",
+    "library"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HurrellT/js-inputmasks/issues"
+  },
+  "homepage": "https://github.com/HurrellT/js-inputmasks#readme",
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}
