@@ -1,6 +1,6 @@
 {
   "name": "js-inputmasks",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple full javascript input masks library",
   "author": "Tomas Hurrell <hurrelltomas@gmail.com> (https://hurrellt.vercel.app/)",
   "main": "dist/index.js",
